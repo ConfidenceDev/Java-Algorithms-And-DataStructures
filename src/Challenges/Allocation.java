@@ -1,3 +1,4 @@
+package Challenges;
 import java.util.Scanner;
 
 class Allocation {

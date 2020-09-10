@@ -1,3 +1,4 @@
+package Stack;
 
 public class Person {
 	
@@ -9,7 +10,7 @@ public class Person {
 		this.age = age;
 	}
 	
-	public String setString(){
+	public String getString(){
 		return "Name: " + this.name + " Age: " + this.age;
 	}
 }

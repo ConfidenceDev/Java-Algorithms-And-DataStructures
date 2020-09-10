@@ -1,3 +1,4 @@
+package Stack;
 
 public class Stack {
 	
@@ -49,6 +50,6 @@ public class Stack {
 	}
 	
 	public String showList(int index) {
-		return person[index].setString();
+		return person[index].getString();
 	}
 }
