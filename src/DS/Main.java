@@ -1,10 +1,11 @@
 package DS;
 
 import LinkedList.LinkedList;
-import Stack.Person;
+import Queue.Queue;
+import Queue.Person;
 import Stack.Stack;
 
-public class Algorithms {
+public class Main {
 	
 	public static void main(String[] args) {
 		
@@ -21,7 +22,7 @@ public class Algorithms {
 		}*/
 		
 		//======================== LinkedList =================================
-		LinkedList list = new LinkedList();
+		/*LinkedList list = new LinkedList();
 		list.insert(12);
 		list.insert(16);
 		list.insert(22);
@@ -30,9 +31,22 @@ public class Algorithms {
 		list.insertAtStart(2);
 		
 		list.delete(1);
+		list.show(); */
 		
-		list.show();
+		//======================== Queue ======================================
+		Queue queue = new Queue(10);
+		queue.enqueue(new Person("Nate", 20));
+		queue.enqueue(new Person("John", 10));
 		
+		queue.dequeue();
+		
+		queue.enqueue(new Person("Mary", 25));
+		queue.enqueue(new Person("Collins", 17));
+		
+		System.out.println();
+		System.out.println(queue.size());
+		System.out.println();
+		
+		queue.show();
 	}
-
 }
