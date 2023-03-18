@@ -1,4 +1,4 @@
-package LinkedList;
+package DS.LinkedList;
 
 // TODO : insert, insertAt, insertAtStart and delete
 public class LinkedList {

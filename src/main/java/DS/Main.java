@@ -1,9 +1,7 @@
 package DS;
 
-import LinkedList.LinkedList;
-import Queue.Queue;
-import Queue.Person;
-import Stack.Stack;
+import DS.Queue.Queue;
+import DS.Queue.Person;
 
 public class Main {
 	

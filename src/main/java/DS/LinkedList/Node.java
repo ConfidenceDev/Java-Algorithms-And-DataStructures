@@ -1,4 +1,4 @@
-package LinkedList;
+package DS.LinkedList;
 
 public class Node {
 	public int value;

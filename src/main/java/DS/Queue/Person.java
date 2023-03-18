@@ -1,4 +1,4 @@
-package Queue;
+package DS.Queue;
 
 public class Person {
 	
